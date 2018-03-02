@@ -1,0 +1,1 @@
+Class.forName(DB_DRIVER);   Разобрать значение forName
