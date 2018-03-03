@@ -13,7 +13,7 @@ public interface AddressDAO {
 
     Address getById(Long id) throws SQLException;
 
-    void update(Address address);
+    void update(Address address) throws SQLException;
 
-    void remove (Address address);
+    void remove (Address address) throws SQLException;
 }
